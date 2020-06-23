@@ -12,8 +12,39 @@
 		6557CB4C21CECEDE000E0823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6557CB4A21CECEDE000E0823 /* Main.storyboard */; };
 		6557CB4E21CECF1E000E0823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6557CB4D21CECF1E000E0823 /* Assets.xcassets */; };
 		65847F5C21D15D4F0002BFC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65847F5A21D15D4F0002BFC9 /* LaunchScreen.storyboard */; };
+		65920C9724A1938D00CFD4DF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65920C9624A1938D00CFD4DF /* WidgetKit.framework */; };
+		65920C9924A1938D00CFD4DF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65920C9824A1938D00CFD4DF /* SwiftUI.framework */; };
+		65920C9C24A1938D00CFD4DF /* widget1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65920C9B24A1938D00CFD4DF /* widget1.swift */; };
+		65920C9F24A193D300CFD4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65920C9E24A193D300CFD4DF /* Assets.xcassets */; };
+		65920CA124A193D300CFD4DF /* widget1.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 65920C9D24A1938D00CFD4DF /* widget1.intentdefinition */; };
+		65920CA224A193D300CFD4DF /* widget1.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 65920C9D24A1938D00CFD4DF /* widget1.intentdefinition */; };
+		65920CA524A193D300CFD4DF /* widget1Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 65920C9424A1938C00CFD4DF /* widget1Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6598A3D121CFD7950077E046 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598A3D021CFD7950077E046 /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65920CA324A193D300CFD4DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6557CB3B21CECED7000E0823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65920C9324A1938C00CFD4DF;
+			remoteInfo = widget1Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65920CA924A193D300CFD4DF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				65920CA524A193D300CFD4DF /* widget1Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6557CB4321CECED8000E0823 /* OBS Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OBS Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +54,13 @@
 		6557CB4D21CECF1E000E0823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6557CB5221CECF1F000E0823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65847F5B21D15D4F0002BFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65920C9424A1938C00CFD4DF /* widget1Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widget1Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		65920C9624A1938D00CFD4DF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		65920C9824A1938D00CFD4DF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		65920C9B24A1938D00CFD4DF /* widget1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widget1.swift; sourceTree = "<group>"; };
+		65920C9D24A1938D00CFD4DF /* widget1.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = widget1.intentdefinition; sourceTree = "<group>"; };
+		65920C9E24A193D300CFD4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65920CA024A193D300CFD4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6598A3D021CFD7950077E046 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -34,6 +72,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65920C9124A1938C00CFD4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65920C9924A1938D00CFD4DF /* SwiftUI.framework in Frameworks */,
+				65920C9724A1938D00CFD4DF /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -41,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				6557CB4521CECED8000E0823 /* OBS Camera */,
+				65920C9A24A1938D00CFD4DF /* widget1 */,
+				65920C9524A1938D00CFD4DF /* Frameworks */,
 				6557CB4421CECED8000E0823 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				6557CB4321CECED8000E0823 /* OBS Camera.app */,
+				65920C9424A1938C00CFD4DF /* widget1Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +117,26 @@
 			path = "OBS Camera";
 			sourceTree = "<group>";
 		};
+		65920C9524A1938D00CFD4DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65920C9624A1938D00CFD4DF /* WidgetKit.framework */,
+				65920C9824A1938D00CFD4DF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65920C9A24A1938D00CFD4DF /* widget1 */ = {
+			isa = PBXGroup;
+			children = (
+				65920C9B24A1938D00CFD4DF /* widget1.swift */,
+				65920C9D24A1938D00CFD4DF /* widget1.intentdefinition */,
+				65920C9E24A193D300CFD4DF /* Assets.xcassets */,
+				65920CA024A193D300CFD4DF /* Info.plist */,
+			);
+			path = widget1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +147,34 @@
 				6557CB3F21CECED8000E0823 /* Sources */,
 				6557CB4021CECED8000E0823 /* Frameworks */,
 				6557CB4121CECED8000E0823 /* Resources */,
+				65920CA924A193D300CFD4DF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				65920CA424A193D300CFD4DF /* PBXTargetDependency */,
 			);
 			name = "OBS Camera";
 			productName = "OBS Camera";
 			productReference = 6557CB4321CECED8000E0823 /* OBS Camera.app */;
 			productType = "com.apple.product-type.application";
+		};
+		65920C9324A1938C00CFD4DF /* widget1Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65920CA624A193D300CFD4DF /* Build configuration list for PBXNativeTarget "widget1Extension" */;
+			buildPhases = (
+				65920C9024A1938C00CFD4DF /* Sources */,
+				65920C9124A1938C00CFD4DF /* Frameworks */,
+				65920C9224A1938C00CFD4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widget1Extension;
+			productName = widget1Extension;
+			productReference = 65920C9424A1938C00CFD4DF /* widget1Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -93,13 +182,16 @@
 		6557CB3B21CECED7000E0823 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Gregory Wainer";
 				TargetAttributes = {
 					6557CB4221CECED8000E0823 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1020;
+					};
+					65920C9324A1938C00CFD4DF = {
+						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
@@ -117,6 +209,7 @@
 			projectRoot = "";
 			targets = (
 				6557CB4221CECED8000E0823 /* OBS Camera */,
+				65920C9324A1938C00CFD4DF /* widget1Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +225,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65920C9224A1938C00CFD4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65920C9F24A193D300CFD4DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,11 +242,29 @@
 			files = (
 				6557CB4921CECEDE000E0823 /* ViewController.swift in Sources */,
 				6557CB4721CECEDB000E0823 /* AppDelegate.swift in Sources */,
+				65920CA224A193D300CFD4DF /* widget1.intentdefinition in Sources */,
 				6598A3D121CFD7950077E046 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65920C9024A1938C00CFD4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65920CA124A193D300CFD4DF /* widget1.intentdefinition in Sources */,
+				65920C9C24A1938D00CFD4DF /* widget1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65920CA424A193D300CFD4DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65920C9324A1938C00CFD4DF /* widget1Extension */;
+			targetProxy = 65920CA324A193D300CFD4DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6557CB4A21CECEDE000E0823 /* Main.storyboard */ = {
@@ -219,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,6 +407,7 @@
 		6557CB5621CECF1F000E0823 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)";
@@ -309,6 +429,7 @@
 		6557CB5721CECF1F000E0823 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)";
@@ -322,6 +443,48 @@
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = gregoryw3.com.obscamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65920CA724A193D300CFD4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				INFOPLIST_FILE = widget1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gregoryw3.com.obscamera.widget1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65920CA824A193D300CFD4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				INFOPLIST_FILE = widget1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gregoryw3.com.obscamera.widget1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -344,6 +507,15 @@
 			buildConfigurations = (
 				6557CB5621CECF1F000E0823 /* Debug */,
 				6557CB5721CECF1F000E0823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65920CA624A193D300CFD4DF /* Build configuration list for PBXNativeTarget "widget1Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65920CA724A193D300CFD4DF /* Debug */,
+				65920CA824A193D300CFD4DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
